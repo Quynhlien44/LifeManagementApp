@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LifeManagementApp"
+             x:Class="LifeManagementApp.MainPage">
+
+    <VerticalStackLayout
+        Padding="30,50"
+        Spacing="25">
+        <Label
+            Text="Welcome to Life Management App"
+            Style="{StaticResource Headline}"
+            HorizontalOptions="Center" />
+
+        <Label
+            x:Name="WeatherStatusLabel"
+            Text="Checking weather..."
+            FontSize="16"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Fill" />
+
+        <Label
+            x:Name="WarningLabel"
+            Text="⚠️ Wind warning here..."
+            FontSize="14"
+            TextColor="Red"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            IsVisible="False" />
+
+        <Button
+            Text="Weather Info"
+            SemanticProperties.Hint="Navigate to the Weather Info page"
+            Clicked="OnWeatherInfoClicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            Text="To-Do Tasks"
+            SemanticProperties.Hint="Navigate to the To-Do Tasks page"
+            Clicked="OnToDoTasksClicked"
+            HorizontalOptions="Fill" />
+    </VerticalStackLayout>
+
+</ContentPage>
