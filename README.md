@@ -31,7 +31,7 @@ This application is built using the **Model-View-ViewModel (MVVM)** design patte
    ```bash
    git clone https://github.com/your-repo/weather-todo-app.git
    ```
-2. Open the project (e.g., Visual Studio or Rider).
+2. Open the solution in Visual Studio 2022 with .NET MAUI workload installed.
 3. Build and run the application.
 
 ## How to Use
