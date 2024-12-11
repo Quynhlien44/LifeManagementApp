@@ -72,9 +72,6 @@ This application is built using the **Model-View-ViewModel (MVVM)** design patte
 - **`WeatherPageViewModel`**: The ViewModel handling weather data fetching and UI binding.
 - **`WeatherPage.xaml`**: The XAML view displaying weather information.
 
-### Persistence (To-Do List)
-The application uses `Preferences` for persistent storage. Tasks are serialized into JSON and stored under a unique key.
-
 ### Key Methods
 #### To-Do List ViewModel
 - `LoadToDoItemAsync`: Loads all tasks from storage.
